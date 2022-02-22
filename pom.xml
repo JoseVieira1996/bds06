@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.devsuperior</groupId>
-	<artifactId>bds06</artifactId>
+	<artifactId>bds05</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>bds06</name>
+	<name>bds05</name>
 	<description>Bootcamp Spring React DevSuperior</description>
 
 	<properties>
@@ -36,7 +36,12 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.22</version>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
